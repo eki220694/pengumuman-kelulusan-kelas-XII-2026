@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, GraduationCap, Calendar, CheckCircle2, FileText, MapPin, Globe, Mail, Award, ArrowRight, BookOpen, AlertCircle, Lock } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import studentsData from './data.json';
+import logoSekolah from './logo.png';
 
 interface StudentData {
   nisn: string;
