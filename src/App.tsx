@@ -328,7 +328,7 @@ export default function App() {
                <div className="lg:col-span-2">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white shadow-sm overflow-hidden">
-                      <img src="/logo.png" alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-1" />
+                      <img src={logoImage} alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-1" />
                     </div>
                     <div>
                       <h2 className="font-bold text-lg text-white">SMA Negeri 6 Sigi</h2>
