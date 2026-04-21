@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Search, GraduationCap, Calendar, CheckCircle2, FileText, MapPin, Globe, Mail, Award, ArrowRight, BookOpen, AlertCircle, Lock } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 import studentsData from './data.json';
+import logoSekolah from './logo.png';
 
 interface StudentData {
   nisn: string;
@@ -73,7 +74,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 sm:w-11 sm:h-11 rounded-full flex items-center justify-center bg-white shadow-sm overflow-hidden border border-slate-100 flex-shrink-0">
-              <img src="/logo.png" alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-0.5 sm:p-1" />
+              <img src={logoSekolah} alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-0.5 sm:p-1" />
             </div>
             <div className="flex flex-col justify-center">
               <h1 className="font-bold text-base sm:text-lg leading-tight tracking-tight text-slate-900 line-clamp-1">SMA Negeri 6 Sigi</h1>
@@ -327,7 +328,7 @@ export default function App() {
                <div className="lg:col-span-2">
                   <div className="flex items-center gap-3 mb-6">
                     <div className="w-12 h-12 rounded-full flex items-center justify-center bg-white shadow-sm overflow-hidden">
-                      <img src="/logo.png" alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-1" />
+                      <img src={logoSekolah} alt="Logo SMAN 6 Sigi" className="w-full h-full object-contain p-1" />
                     </div>
                     <div>
                       <h2 className="font-bold text-lg text-white">SMA Negeri 6 Sigi</h2>
